@@ -7,11 +7,9 @@ import Container from "./componets/layout/Container"
 import Footer from "./componets/layout/Footer"
 import Navbar from "./componets/layout/Navbar"
 
-
-
 function App() {
   return (
-      <Router>
+    <Router>
           <Navbar/> 
           
             <Container customClass="min-height">
